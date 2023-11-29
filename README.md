@@ -24,7 +24,7 @@ A tabela 1 configura as conexões do arduíno com o circuito:
 # Explicação do código utilizado
 O código destinado ao projeto da matriz de LED controlada por arduino teve como principal função ligar vários LEDS distintos de uma só vez por meio de apenas um comando, de forma a não precisar ligar cada LED individualmente, um de cada vez. Por mais simples que pareça sua execução, para a finalidade buscada neste projeto, foi-se necessário usar de conceitos um pouco mais avançados da eletrônica, fugindo um pouco da ideia de uso de componentes e códigos simples; durante a construção do protótipo do circuito, percebeu-se que se fazia necessário o uso de um _pull up_ para cada botão, de modo a impedir que os LEDS ficam acesos apenas durante o pressionamento dos botões, além de ter-se feito necessário o uso de operadores ternários para fazer uma decisão simples com base em uma condição, servindo estes para o sistema _pull up_.
 
-1. Inclusão de bibliotecas:
+1. Definição dos pinos:
    - O código começa com a definição dos pinos digitais para os LEDS e para os botões, tendo sido escolhidos de 2 a 9 para os LEDS, e os pinos 13 e 12 para os botões. Optou-se por não usar os pinos digitais 0 e 1 pois os mesmos são reservados para a transmissão de dados no arduino, o que acabaria tirando um pouco a possibilidade de adição de um sistema de controle wireless no futuro.
 
 2. Declaração de variáveis:
