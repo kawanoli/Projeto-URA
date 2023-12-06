@@ -60,6 +60,3 @@ O código destinado ao projeto da matriz de LED controlada por arduino teve como
    - Realiza-se a leitura do estado dos botões.
    - Executa-se a lógica do acendimento dos LEDS de um dos exemplos caso o botão designado para o exemplo seja apertado (verifica-se todos os botões para que possa executar o/os que estão pressionado(s)).
    - Introduz um pequeno atraso para evitar falhas devido a atualizações muito frequentes.
-
-# Link para o artigo do projeto
-https://docs.google.com/document/d/1gScKC6FhyIni0HpfjI9BSvTVDEKSrXkz/edit?usp=sharing&ouid=103922140290986412333&rtpof=true&sd=true
